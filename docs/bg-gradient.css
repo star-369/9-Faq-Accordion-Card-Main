@@ -1,0 +1,22 @@
+:root {
+  --very-dark-desaturate-blue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+  --soft-violet: hsl(273, 75%, 66%);
+  --soft-blue: hsl(240, 73%, 65%);
+  --very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --dark-grayish-blue: hsl(240, 6%, 50%);
+  --light-grayish-blue: hsl(240, 5%, 91%);
+  --kumbh-sans: "";
+}
+body {
+  background: linear-gradient(
+    180deg,
+    hsl(273, 75%, 66%) 20%,
+    hsl(240, 73%, 65%) 100%
+  );
+}
+
+main {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 116px -8px;
+}
